@@ -1,0 +1,29 @@
+Django
+Django foi projetado com principio orientado a conteudo - content-driven
+
+Foco no desenvolvimento como sites de noticias, blogs, foruns
+
+Django prove uma estrutura para uso de banco de dados
+facilidade nas construcoes de crud
+
+Sintaxe - ORM  - seguranca - arquitetura MVT - model view template
+
+instala para que funcione so no projeto que e uma boa pratica - virtual env
+
+Precisa chegar no arquivo activate na pasta bin
+
+para ativar source venv/bin/activate
+deactivate - desativa.
+
+pip - sistema de gerenciamento de pacote
+pip install django - instala o django
+pip freeze mostra as depedencias e descreve as versoes de dependencias do projeto para funcionar
+pip freeze > requirements.txt -traz um arquivo com tudo necessario para funcionar
+django-admin help - traz os comandos do django
+
+startproject - django-admin startproject config ou setup .(nome do projeto) - esse arquivo mantem as configuracoes desse projeto
+
+arquivo manange.py - roda varios comandos do django, assim como subir um servidor
+cmd shift p - python interpreter 
+python manage.py runserver - roda o servidor
+alterar idioma em setup - settings.py
